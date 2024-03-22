@@ -1,0 +1,298 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: grid;
+}
+
+.top-container {
+  background-color: #16796f;
+  width: 100%;
+  height: 800px;
+}
+
+.topnav {
+  position: relative;
+  display: flex;
+}
+
+h1 {
+  text-align: center;
+  margin: 0%;
+  font-weight: bold;
+  color: #f1f8ff;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  text-align: center;
+  margin: 0%;
+  font-weight: 400;
+  color: #f1f8ff;
+  font-family: "Poppins", sans-serif;
+}
+.clouds {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-cloud {
+  position: relative;
+  top: 50px;
+  left: 35px;
+}
+.bottom-cloud {
+  position: relative;
+  top: 105px;
+}
+.center-cloud {
+  position: relative;
+  top: 20px;
+  left: 70px;
+}
+.second-center-cloud {
+  position: relative;
+  top: 60px;
+  right: 25px;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.my-photo {
+  display: flex;
+  justify-content: center;
+}
+
+.my-photos {
+  margin-top: 50px;
+  background-color: bisque;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.nested-div-top {
+  margin-top: 100px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  top: 0;
+  left: 20px;
+  color: #f1f8ff;
+  font-weight: bold;
+  font-size: 60px;
+}
+.tree {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 900px;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+.nested-div-bottom {
+  position: flex;
+  top: 0;
+  left: 20px;
+  color: #1e90ff;
+  font-weight: bold;
+  font-size: 60px;
+}
+.middle-container {
+  background-color: #9ca89e;
+  width: 100%;
+  height: 1300px;
+  display: grid;
+}
+.title-box {
+  position: relative;
+  top: 25px;
+  left: 145px;
+  width: 550px;
+  height: 65px;
+  background-color: #9ca89e;
+  border-collapse: collapse;
+  border: 10px solid;
+  border-color: #16796f;
+  box-shadow: 10px 5px 5px #16796f;
+  border-radius: 20px;
+}
+.content-box {
+  position: relative;
+  top: 25px;
+  left: 460px;
+  width: 800px;
+  height: 300px;
+  background-color: #9ca89e;
+  border-collapse: collapse;
+  border: 10px solid;
+  border-color: #16796f;
+  box-shadow: 10px 5px 5px #16796f;
+  border-radius: 20px;
+}
+
+.title-content {
+  text-align: center;
+}
+.bottom-content-box {
+  position: relative;
+  top: 25px;
+  left: 460px;
+  width: 800px;
+  height: 300px;
+  background-color: #9ca89e;
+  border-collapse: collapse;
+  border: 10px solid;
+  border-color: #16796f;
+  box-shadow: 10px 5px 5px #16796f;
+  border-radius: 20px;
+}
+
+.main-content {
+  position: relative;
+  display: flex;
+  margin: 20px;
+}
+
+a {
+  font-family: "Poppins", sans-serif;
+}
+
+.bottom-title-box {
+  position: relative;
+  top: 25px;
+  left: 145px;
+  width: 550px;
+  height: 65px;
+  background-color: #9ca89e;
+  border-collapse: collapse;
+  border: 10px solid;
+  border-color: #16796f;
+  box-shadow: 10px 5px 5px #16796f;
+  border-radius: 20px;
+}
+
+.bottom-title-content {
+  text-align: center;
+}
+
+.bottom-main-content {
+  position: relative;
+  display: flex;
+  margin: 20px;
+}
+
+.bottom-container {
+  background-color: darkslategrey;
+  width: 100%;
+  height: 600px;
+  display: flex;
+}
+
+.middle-text {
+  position: absolute;
+  transform: rotate(-30deg);
+}
+
+.wrapper {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 350px;
+  width: 100%;
+  background: #16796f;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px #16796f(254, 236, 164, 1);
+  font-family: "Popins", sans-serif;
+}
+
+.wrapper h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+  font-family: "Popins", sans-serif;
+}
+
+.wrapper .input_field {
+  margin-bottom: 10px;
+  font-family: "Popins", sans-serif;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea {
+  border: 1px solid #e0e0e0;
+  width: 95%;
+  padding: 10px;
+  font-family: "Popins", sans-serif;
+}
+
+.wrapper textarea {
+  resize: none;
+  height: 80px;
+  font-family: "Popins", sans-serif;
+}
+
+.wrapper .btn input[type="submit"] {
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: darkslategrey;
+  color: #fcfbf7;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  font-family: "Popins", sans-serif;
+}
+
+#error_message {
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+  font-family: "Popins", sans-serif;
+}
